@@ -1,88 +1,56 @@
-# Cluster Context: `<cluster_id>`
-
-This file stores structured, durable guidance modeled from context supplied by
-the user. Preserve distinctions, examples, exceptions, and uncertainty when
-they could affect future research or implementation.
-
-## Identity
+# `<display_name>`
 
 - **Cluster ID:** `<cluster_id>`
-- **Display name:** `<display_name>`
-- **Purpose:** `<what this cluster investigates>`
+- **Python module:** `<cluster_id>.py`
+- **Layer:** `<market evidence | cross-cutting infrastructure>`
+
+Shared rules: [Evidence Contract](../../docs/core/evidence-contract.md).
+
+## Purpose
+
+`<cluster-specific purpose and research question>`
 
 ## Scope
 
-### Included
+- `<included behavior or evidence>`
 
-- `<included area>`
+## Out of Scope
 
-### Excluded
+- `<cluster-specific exclusion>`
 
-- `<excluded area>`
+## Research Unit
 
-## Canonical Terminology
+`<primary unit of observation and analysis>`
 
-- `<term>`: `<meaning in this cluster>`
+## Evidence Model
 
-## User-Provided Guidance
+`<qualification rules, evidence types, and important distinctions>`
 
-Preserve detailed cluster guidance here. Organize it for retrieval without
-removing nuance.
+## Observable Fields
 
-## Evidence Guidance
+- `<directly collected field>`
 
-### Problem Evidence
+## Derived Fields
 
-`<cluster-specific signals, sources, distinctions, and caveats>`
+- `<derived field with required lineage>`
 
-### Workaround Evidence
+## Analysis
 
-`<cluster-specific signals, sources, distinctions, and caveats>`
+`<metrics, heuristics, false positives, and false negatives>`
 
-### Dissatisfaction Evidence
+## Source Applicability
 
-`<cluster-specific signals, sources, distinctions, and caveats>`
+Link provider mechanics from [Source and Provider Index](../../docs/sources/index.md).
+Document only cluster-specific source value or bias here.
 
-### Paid Behavior Evidence
+## Guardrails
 
-`<cluster-specific signals, sources, distinctions, and caveats>`
+- `<cluster-specific guardrail>`
 
-### Competitor and Supply Evidence
+## Output Contract
 
-`<cluster-specific signals, sources, distinctions, and caveats>`
-
-### Search and Discovery Evidence
-
-`<cluster-specific signals, sources, distinctions, and caveats>`
-
-### Distribution and Community Evidence
-
-`<cluster-specific signals, sources, distinctions, and caveats>`
-
-### Risk Evidence
-
-`<cluster-specific signals, sources, distinctions, and caveats>`
-
-### Raw Links and Excerpts
-
-`<cluster-specific collection and retention requirements>`
-
-## Confirmed Facts
-
-- `<fact with evidence identifier when available>`
-
-## Hypotheses
-
-- `<unconfirmed hypothesis>`
+`<cluster-specific runtime output feeding investigation profile>`
 
 ## Open Questions
 
-- `<question requiring research or user direction>`
-
-## Decisions and Superseded Guidance
-
-- `<decision or explicitly superseded instruction, reason, and replacement>`
-
-## Context Change Log
-
-- `<YYYY-MM-DD>`: Created cluster context.
+- `<unresolved cluster-specific question>`

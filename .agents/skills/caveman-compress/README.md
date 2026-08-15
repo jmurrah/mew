@@ -1,14 +1,6 @@
-<p align="center">
-  <img src="https://em-content.zobj.net/source/apple/391/rock_1faa8.png" width="80" />
-</p>
+# caveman-compress
 
-<h1 align="center">caveman-compress</h1>
-
-<p align="center">
-  <strong>shrink memory file. save token every session.</strong>
-</p>
-
----
+Shrink memory files. Save tokens every session.
 
 A Claude Code skill that compresses your project memory files (`CLAUDE.md`, todos, preferences) into caveman format — so every session loads fewer tokens automatically.
 

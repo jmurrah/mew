@@ -1,13 +1,23 @@
 # mew
 
-Find app opportunities backed by market demand.
+Private, local Market Gap Finder for collecting auditable evidence about possible
+software, app, and product opportunities.
 
-1. Problem evidence
-2. Workaround evidence
-3. Dissatisfaction evidence
-4. Paid behavior evidence
-5. Competitor/supply evidence
-6. Search/discovery evidence
-7. Distribution/community evidence
-8. Risk evidence
-9. Raw links/excerpts
+It investigates eight evidence dimensions:
+
+1. Problem existence.
+2. Workarounds.
+3. Dissatisfaction.
+4. Paid behavior.
+5. Competitor supply.
+6. Search and discovery.
+7. Distribution and community.
+8. Risk and regulation.
+
+A ninth cross-cutting layer preserves raw evidence and audit lineage. Human
+judgment decides what, if anything, should be built.
+
+Start at [docs/index.md](docs/index.md).
+
+Current status: research specifications and Python namespace scaffolds exist;
+collectors, shared runner, storage contract, and runtime evidence do not.
